@@ -31,7 +31,7 @@ The Developer Tools panel will open in whatever web page you’re on. You need t
 
 The first item to be aware of is where you want the Chrome Developer Tools to be "docked" in relation to your browser window. You can adjust this setting by clicking on the ellipsis in the upper right corner and selecting the desired dock-side.  I tend to like the tools to be docked on the bottom so that my screen width is not modified.
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-1.png)
 
 ### Tabs for Different Functions
 
@@ -48,15 +48,19 @@ They don’t always stay in this order—Chrome moves them around based on which
 
 Shows you the HTML used to build the page you’re looking at.
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-2.png)
+
+
 
 You can select a specific element on the page to be active in the Elements tab by following the steps below.
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrom-dev-tools-3.png)
 
 When an element is selected, the styles for that element are displayed in the Styles pane on the right.
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-4.png)
+
+
 
 #### Console Tab
 
@@ -87,13 +91,17 @@ After the web browser receives the response for the initial HTML page, it will r
 
 You can see the first network request was for the URL www.internetingishard.com.
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-5.png)
+
+
 
 Click on the item in the list. The Header Panel will become active to the right. This give more information about the request. All of this information is included in the request sent to the web server.
 
  The **Remote Address** is the IP Address that it has resolved through DNS for the server.
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-6.png)
+
+
 
 Click on the Response tab on the right. This displays what is returned to the web browser by the web server processing the request. It is the HTML document that is the default document for the internetingishard.com site \(a specific document name was not specified in the URL\).
 
@@ -101,11 +109,11 @@ As you can see in HTML, there are a bunch of **link elements** that are specifyi
 
 You can see this by looking at the connection between the item outlined on the right and the corresponding request on the left.
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-7.png)
 
 Clicking on the stylesheet file on the left, brings up the corresponding data that is returned from the request for that file.
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-8.png)
 
 As you can see with this relatively simple website, there is a lot going on to load the page.
 
@@ -117,13 +125,11 @@ Open the Chrome Developer Tools and click on the Network Tab.
 
 Click the Clear button to clear all of the network activity so we can focus on activity after the page has loaded.
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-9.png)
 
 Start typing the word "**Chrom**" into the search box and watch the network activity as you do that. The web page is communicating with Google's web server continually behind the scenes to retrieve potential search terms to suggest. 
 
-Each letter you type triggers a new request to the server, supplying the latest search string, and the response includes a list of possible completions to provide to the user. 
+Each letter you type triggers a new request to the server, supplying the latest search string, and the response includes a list of possible completions to provide to the user.
 
-![](../.gitbook/assets/image%20%2819%29.png)
-
-[![](https://github.com/intro-web-dev-master/assignment-chrome-dev-tools-intro/.gitbook/assets/image%20%287%29.png)](https://github.com/intro-web-dev-master/assignment-chrome-dev-tools-intro/.gitbook/assets/image%20%287%29.png)
+![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-10.png)
 
