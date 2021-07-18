@@ -31,7 +31,7 @@ The Developer Tools panel will open in whatever web page you’re on. You need t
 
 The first item to be aware of is where you want the Chrome Developer Tools to be "docked" in relation to your browser window. You can adjust this setting by clicking on the ellipsis in the upper right corner and selecting the desired dock-side.  I tend to like the tools to be docked on the bottom so that my screen width is not modified.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-1.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-1.png)
 
 ### Tabs for Different Functions
 
@@ -48,17 +48,17 @@ They don’t always stay in this order—Chrome moves them around based on which
 
 Shows you the HTML used to build the page you’re looking at.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-2.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-2.png)
 
 
 
 You can select a specific element on the page to be active in the Elements tab by following the steps below.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrom-dev-tools-3.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/chrom-dev-tools-3.png)
 
 When an element is selected, the styles for that element are displayed in the Styles pane on the right.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-4.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-4.png)
 
 
 
@@ -91,7 +91,7 @@ After the web browser receives the response for the initial HTML page, it will r
 
 You can see the first network request was for the URL www.internetingishard.com.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-5.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-5.png)
 
 
 
@@ -99,7 +99,7 @@ Click on the item in the list. The Header Panel will become active to the right.
 
  The **Remote Address** is the IP Address that it has resolved through DNS for the server.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-6.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-6.png)
 
 
 
@@ -109,11 +109,11 @@ As you can see in HTML, there are a bunch of **link elements** that are specifyi
 
 You can see this by looking at the connection between the item outlined on the right and the corresponding request on the left.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-7.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-7.png)
 
 Clicking on the stylesheet file on the left, brings up the corresponding data that is returned from the request for that file.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-8.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-8.png)
 
 As you can see with this relatively simple website, there is a lot going on to load the page.
 
@@ -125,11 +125,11 @@ Open the Chrome Developer Tools and click on the Network Tab.
 
 Click the Clear button to clear all of the network activity so we can focus on activity after the page has loaded.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-9.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-9.png)
 
 Start typing the word "**Chrom**" into the search box and watch the network activity as you do that. The web page is communicating with Google's web server continually behind the scenes to retrieve potential search terms to suggest. 
 
 Each letter you type triggers a new request to the server, supplying the latest search string, and the response includes a list of possible completions to provide to the user.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/chrome-dev-tools-10.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-10.png)
 
