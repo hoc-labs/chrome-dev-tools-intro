@@ -80,7 +80,7 @@ Shows details for all the files that are loaded for the document you’re lookin
 
 This exercise walks you through using the Network View, to see the details of request/response communication that goes on when a web page is loaded.
 
-When you enter an URL \(Uniform Resource Locator\) into the browser search input box, a lot of communication is going on behind the scenes between the web browser and the web server to retrieve the collection of files that are necessary to fully display the web page. There is the top-level HTML page, but also stylesheets, JavaScript files, fonts, images, videos, and more.
+When you enter an URL (Uniform Resource Locator) into the browser search input box, a lot of communication is going on behind the scenes between the web browser and the web server to retrieve the collection of files that are necessary to fully display the web page. There is the top-level HTML page, but also stylesheets, JavaScript files, fonts, images, videos, and more.
 
 After the web browser receives the response for the initial HTML page, it will read through and sequentially request any files required that it encounters within the HTML markup.
 
@@ -103,7 +103,7 @@ Click on the item in the list. The Header Panel will become active to the right.
 
 
 
-Click on the Response tab on the right. This displays what is returned to the web browser by the web server processing the request. It is the HTML document that is the default document for the internetingishard.com site \(a specific document name was not specified in the URL\).
+Click on the Response tab on the right. This displays what is returned to the web browser by the web server processing the request. It is the HTML document that is the default document for the internetingishard.com site (a specific document name was not specified in the URL).
 
 As you can see in HTML, there are a bunch of **link elements** that are specifying images and stylesheet files that need to be requested to complete the loading of this web page. As the web browser reads through the HTML document, and encounters these link elements, it will made additional requests to the web server for these files.
 
