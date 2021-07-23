@@ -1,0 +1,4 @@
+What is the remote IP address of internetingishard.com?
+
+What is the name of the first stylesheet file that is requested after the inital internetingishard.com request is made?
+
