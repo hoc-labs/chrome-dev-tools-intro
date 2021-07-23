@@ -1,17 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> 20de7f4c7f196aab16900b658072e66b6afc256a
+
 # Chrome Developer Tools Intro
 
 ### **Overview**
 
-<<<<<<< HEAD
 **Chrome Developer Tools** is a comprehensive toolkit for developers, built directly into the Chrome browser. These tools let you view and edit web pages in real time and diagnose problems more quickly.
-=======
-**Chrome Developer Tools** is a comprehensive toolkit for developers, built directly into the Chrome browser. These tools let you view and edit web pages in real time, diagnose problems more quickly.
->>>>>>> 20de7f4c7f196aab16900b658072e66b6afc256a
 
 For this tutorial we'll start with the following page in the browser: [internetingishard.com](https://www.internetingishard.com/).
 
@@ -32,11 +24,7 @@ Open the Chrome menu and go to “More Tools” &gt; “Developer Tools.”
 
 **From the Context Menu:**
 
-<<<<<<< HEAD
 You can right-click (Windows) or Ctrl-click (Mac) anything on a web page and select “**Inspect Element**” to open Developer Tools.
-=======
-You can right-click \(Windows\) or Ctrl-click \(Mac\) anything on a web page and select “**Inspect Element**” to open Developer Tools.
->>>>>>> 20de7f4c7f196aab16900b658072e66b6afc256a
 
 The Developer Tools panel will open in whatever web page you’re on. You need to open them again for each new Chrome window, but you can navigate between web pages with them open.
 
@@ -146,12 +134,18 @@ Each letter you type triggers a new request to the server, supplying the latest 
 
 ![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-10.png)
 
-### Load the index.html file in the project folder
+
+## Examining Project HTML File
+
+**Load the index.html file in the project folder**
 * Right-click on the file in the VS Code File Explorer and select the **Open with Live Server** option. This will load the file in the browser.
 * Open the Chrome Developer Tools and make sure the **Elements** tab is active.
 * Use the element selector tool to select the **Orange Jelly**  `<h2>` element.
 
 ![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-element-selector.png)
+
+![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-10.png)
+
 
 ## Questions
 Open the file questions.txt in the project foler and answer each question on the line following the question.
