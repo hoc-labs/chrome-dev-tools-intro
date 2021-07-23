@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> 20de7f4c7f196aab16900b658072e66b6afc256a
 # Chrome Developer Tools Intro
 
 ### **Overview**
 
+<<<<<<< HEAD
 **Chrome Developer Tools** is a comprehensive toolkit for developers, built directly into the Chrome browser. These tools let you view and edit web pages in real time and diagnose problems more quickly.
+=======
+**Chrome Developer Tools** is a comprehensive toolkit for developers, built directly into the Chrome browser. These tools let you view and edit web pages in real time, diagnose problems more quickly.
+>>>>>>> 20de7f4c7f196aab16900b658072e66b6afc256a
 
 For this tutorial we'll start with the following page in the browser: [internetingishard.com](https://www.internetingishard.com/).
 
@@ -25,7 +32,11 @@ Open the Chrome menu and go to “More Tools” &gt; “Developer Tools.”
 
 **From the Context Menu:**
 
+<<<<<<< HEAD
 You can right-click (Windows) or Ctrl-click (Mac) anything on a web page and select “**Inspect Element**” to open Developer Tools.
+=======
+You can right-click \(Windows\) or Ctrl-click \(Mac\) anything on a web page and select “**Inspect Element**” to open Developer Tools.
+>>>>>>> 20de7f4c7f196aab16900b658072e66b6afc256a
 
 The Developer Tools panel will open in whatever web page you’re on. You need to open them again for each new Chrome window, but you can navigate between web pages with them open.
 
@@ -134,7 +145,6 @@ Start typing the word "**Chrom**" into the search box and watch the network acti
 Each letter you type triggers a new request to the server, supplying the latest search string, and the response includes a list of possible completions to provide to the user.
 
 ![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-10.png)
-
 
 ### Load the index.html file in the project folder
 * Right-click on the file in the VS Code File Explorer and select the **Open with Live Server** option. This will load the file in the browser.
