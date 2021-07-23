@@ -144,8 +144,7 @@ Each letter you type triggers a new request to the server, supplying the latest 
 
 ![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-element-selector.png)
 
-![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-10.png)
-
+![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-11.png)
 
 ## Questions
 Open the file questions.txt in the project foler and answer each question on the line following the question.
