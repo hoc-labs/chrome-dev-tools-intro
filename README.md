@@ -146,8 +146,19 @@ Each letter you type triggers a new request to the server, supplying the latest 
 
 ![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-11.png)
 
+On the right, the CSS styles are displayed for the active element. Click on the value for the #orange-jelly selector and enter a named color, such as **purple**. Notice that the HTML displayed updates to reflect the new color value.
+
+Refresh the screen and notice that the color reverts back to what was originally defined in the CSS. 
+
+In the Elements view, selec the `<ul>` element just under the `<h1>Meet the Jelloes<h1>` heading. 
+
+Look on the right in the Styles tab and scroll down until you see the box-model display that shows the margin, border and padding for the selected item.
+
+Move your mouse over the different sections of the box and observe that it displays highlighting in the HTML document that corresponds to the area you are hovering over.
+
+
 ## Questions
 Open the file questions.txt in the project foler and answer each question on the line following the question.
 
 ### A (add), C (commit) P (push)
-Turn in your assignment by following the ACP git commands.
+Your project now contains a modified questions.txt file. Turn in your assignment by following the ACP git commands.

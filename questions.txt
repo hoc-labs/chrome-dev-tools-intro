@@ -1,4 +1,25 @@
+
 What is the remote IP address of internetingishard.com?
 
+
 What is the name of the first stylesheet file that is requested after the inital internetingishard.com request is made?
+
+
+These questions are for the local index.html file. Within the Elements tab, use the element selector tool to select the h1, h2, and h3 elements in Elements view and then view their corresponding CSS property values in the style view on the right.
+
+What is the value for the font-size property for the h1, h2 and h3 element?
+
+h1: ??
+h2: ??
+h3: ??
+
+Select the list (ul/li) element under the Meet the Jellies heading. 
+
+Look at the Styles tab on the right and scroll down until you can see the box at the bottom that displays the margin, border and padding.
+
+What is the size of the padding on the left of the ul element (it will be displayed in the padding area in the box-model view)?
+
+
+
+
 
