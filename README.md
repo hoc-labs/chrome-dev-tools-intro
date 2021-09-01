@@ -132,9 +132,6 @@ Start typing the word "**Chrom**" into the search box and watch the network acti
 
 Each letter you type triggers a new request to the server, supplying the latest search string, and the response includes a list of possible completions to provide to the user.
 
-![](https://raw.githubusercontent.com/hoc-labs/images/main/chrome-dev-tools-10.png)
-
-
 ## Examining Project HTML File
 
 **Load the index.html file in the project folder**
@@ -158,7 +155,7 @@ Move your mouse over the different sections of the box and observe that it displ
 
 
 ## Questions
-Open the file questions.txt in the project foler and answer each question on the line following the question.
+Open the file questions.txt in the project folder and answer each question on the line following the question.
 
 ### A (add), C (commit) P (push)
 Your project now contains a modified questions.txt file. Turn in your assignment by following the ACP git commands.
